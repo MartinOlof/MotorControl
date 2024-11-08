@@ -6,9 +6,9 @@
 #define IN_A PORTB |= (1 << PB5)
 #define IN_B PORTB |= (1 << PB3)
 #define PWM PORTB |= (1 << PB0)
-#define CS PORTB |= (1 << PB4)
+#define CS PORTB |= (1 << PB1)
 #define SEL0 PORTB |= (1 << PB2)
-#define PUSH_BUTTON
+#define PUSH_BUTTON //PB4
 
 uint_8t buttonCount = 0;
 
